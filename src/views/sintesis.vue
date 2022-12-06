@@ -3,15 +3,22 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    .row.bg-c33.mb-5
+      .col-lg-4.mt-4.mt-lg-0
+        figure
+          img(src='@/assets/curso/temas/img1.png', style="width: 350px").m-auto
+      .col-lg-8.p-4
+        traductor.color-primario
+          div(slot="textoIngles")
+            p.mb-0 #[i Up to this point, we have been able to understand everything that has to do with how to correctly write an argumentative text and all the linguistic resources necessary for this purpose. Therefore, you are invited to appreciate the following conceptual scheme that summarizes the subject matter:]
+          div(slot="textoEspanol")
+            p.mb-0 Hasta este punto, hemos podido comprender todo lo que tiene que ver con cómo escribir correctamente un texto argumentativo y todos los recursos lingüísticos necesarios para este propósito. Por ello, se invita a que aprecie el siguiente esquema conceptual que resume la temática tratada:
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -20,8 +27,12 @@
 </template>
 
 <script>
+import traductor from '@/components/tarjetaTraductor.vue'
 export default {
   name: 'Sintesis',
+  components: {
+    traductor,
+  },
   data: () => ({
     // variables de vue
   }),
