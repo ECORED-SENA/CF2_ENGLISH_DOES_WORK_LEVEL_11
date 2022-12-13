@@ -185,22 +185,22 @@
                           ul.lista-ul
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “What is this text about?”
+                              | #[i “What is this text about?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “What is the general topic?”
+                              | #[i “What is the general topic?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “What is the author's main point about the topic?”
+                              | #[i “What is the author's main point about the topic?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “What general idea covers the other ideas presented in the text?”
+                              | #[i “What general idea covers the other ideas presented in the text?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “Is this statement supported by all or most of the other material in the paragraph?”
+                              | #[i “Is this statement supported by all or most of the other material in the paragraph?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “How are main ideas presented?”
+                              | #[i “How are main ideas presented?”]
               .row.m-1
                 .col-12
                   h4.txt-c4.mb-5 #[i Secondary ideas]
@@ -226,22 +226,22 @@
                           ul.lista-ul
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | Which details help you understand the main idea?”
+                              | #[i Which details help you understand the main idea?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “How is the main idea supported?”
+                              | #[i “How is the main idea supported?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “Which sentences or ideas answer questions raised by the main idea?” (like who, what, when, why, or how).
+                              | #[i “Which sentences or ideas answer questions raised by the main idea?” (like who, what, when, why, or how).]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “What are the most relevant of these secondary ideas?”
+                              | #[i “What are the most relevant of these secondary ideas?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “What do they emerge from?”
+                              | #[i “What do they emerge from?”]
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
-                              | “How is the main idea linked to the supporting ideas?”
+                              | #[i “How is the main idea linked to the supporting ideas?”]
     p.mb-5 #[i Now, read the next text and try to identify each concept of a paragraph. Then check:]
     .row.p-5.bg-c24
       .col-12
@@ -431,9 +431,9 @@ export default {
         {
           personaje: 'Juan',
           textoIng:
-            '<i>Exactly! And human beings no longer have the luxury of doing what they</i> *** <i>to do: contaminating a place and then moving to a clean place hoping that the environment took care of the pollution.</i>',
+            '<i>Exactly! And human beings no longer have the luxury of doing what they</i> *** <i>to do: contaminating a place and then moving to a clean place hoping that the new environment took care of the pollution.</i>',
           textoEsp:
-            '¡Exacto! Y ya los seres humanos no pueden darse el lujo de hacer lo que hacían antes: contaminar un lugar y luego mudarse a un lugar limpio esperando que el medio ambiente se hiciera cargo de la polución.',
+            '¡Exacto! Y ya los seres humanos no pueden darse el lujo de hacer lo que hacían antes: contaminar un lugar y luego mudarse a un lugar limpio esperando que el nuevo medio ambiente se hiciera cargo de la polución.',
           audio: require('@/assets/curso/tema2/juan3.mp3'),
           palabra: 'used',
         },

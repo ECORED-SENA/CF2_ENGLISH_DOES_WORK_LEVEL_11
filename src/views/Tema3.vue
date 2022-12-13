@@ -48,7 +48,7 @@
                   div(slot="textoIngles")
                     .row.align-items-center
                       .col
-                        p.mb-0.txt-c10 #[i #[b #[u Initially]], he talked about eliminating corruption in the institution, #[b #[u even though]] he has several complaints about it, #[b #[u specifically]] for embezzlement. #[b #[u Nevertheless]], he brought up the subject.]
+                        p.mb-0.txt-c10 #[i #[b #[u Initially]], he talked about eliminating corruption in the institution, #[b #[u even though]] he has several complaints because of it, #[b #[u specifically]] for embezzlement. #[b #[u Nevertheless]], he brought up the subject.]
                       .col-auto
                         Audio.color-acento-contenido.mx-auto(
                           :audio="require('@/assets/curso/tema3/c1.mp3')"
@@ -66,7 +66,7 @@
                   div(slot="textoIngles")
                     .row.align-items-center
                       .col
-                        p.mb-0.txt-c7 #[i Really? I’m in shock! What else did he talk about?]
+                        p.mb-0.txt-c7 #[i Really? I am shocked! What else did he talk about?]
                       .col-auto
                         Audio.color-acento-contenido.mx-auto(
                           :audio="require('@/assets/curso/tema3/m2.mp3')"
@@ -237,7 +237,7 @@
                     .row.align-items-center.mb-4
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3.mb-lg-0(
-                          texto="I love flowers, <u>especially roses</u> and lilies."
+                          texto="I love flowers, <u>especially</u> roses and lilies."
                           :audio="require('@/assets/curso/tema3/Audio 3_09.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -431,7 +431,7 @@
         figure
           img(src='@/assets/curso/tema3/img10.svg', style="width: 250px").m-auto
       .col-lg-10
-        p.mb-0Now #[i.txt-c7 let's test how much you learned about the different types of connectors. Listen and complete the following dialogue:] #[span.txt-c9 / Ahora, probemos cuánto aprendió sobre los diferentes tipos de conectores. Escuche y complete el siguiente diálogo:]
+        p.mb-0Now #[i.txt-c7 Now let's test how much you learned about the different types of connectors. Listen and complete the following dialogue:] #[span.txt-c9 / Ahora, probemos cuánto aprendió sobre los diferentes tipos de conectores. Escuche y complete el siguiente diálogo:]
     .row.px-5.pb-5.bg-c32
       .col-12
         Dialogo.color-primario(:dialogo="dialogo")

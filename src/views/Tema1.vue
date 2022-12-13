@@ -278,9 +278,9 @@
                 traductor.color-primario3
                   div(slot="textoIngles")
                     p.text-center #[i.txt-c6 Rehearse]
-                    p.text-center.mb-0 #[i ...by stating your position (claim) and listing your reasons point by point.]
+                    p.text-center.mb-0 #[i ... by stating your position (claim) and listing your reasons point by point.]
                   div(slot="textoEspanol")
-                    p.mb-0 ...expresando su postura (hipótesis) y enumerando sus razones punto por punto.
+                    p.mb-0 ... expresando su postura (hipótesis) y enumerando sus razones punto por punto.
               .tarjeta.color-primario.p-4
                 .row.justify-content-center.mb-4
                   .col-8
@@ -288,9 +288,9 @@
                 traductor.color-primario3
                   div(slot="textoIngles")
                     p.text-center #[i.txt-c6 Plan your claim]
-                    p.text-center.mb-0 #[i and also your reasons and arguments by using boxes and bullets.]
+                    p.text-center.mb-0 #[i And also your reasons and arguments by using boxes and bullets.]
                   div(slot="textoEspanol")
-                    p.mb-0 y también sus razones y argumentos mediante el uso de recuadros y viñetas.
+                    p.mb-0 Y también sus razones y argumentos mediante el uso de recuadros y viñetas.
               .tarjeta.color-primario.p-4
                 .row.justify-content-center.mb-4
                   .col-8
