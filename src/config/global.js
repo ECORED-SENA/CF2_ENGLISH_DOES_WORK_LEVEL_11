@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       '<span1><em>How to write a solid argumentative text step by step</em></span1><br><span>Cómo escribir un texto argumentativo sólido paso a paso</span>',
     descripcionCurso:
-      '<em>This component will focus on how to argue in writing; what is an argumentative text, what are its parts, how to write it, how to identify and formulate main and secondary ideas (to build the body of the paragraphs), and how to use the different types of connectors so that everything is written in a more logical, readable, enjoyable, and understandable way.</em>',
+      'Este componente se enfocará en cómo argumentar de forma escrita; qué es un texto argumentativo, cuáles son sus partes, cómo escribirlo, cómo identificar y formular ideas principales y secundarias (para construir el cuerpo de los párrafos), y cómo usar los diferentes tipos de conectores para que todo quede redactado de una manera más lógica, legible, amena y comprensible.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -271,7 +271,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Lina Marcela Perez',
+        nombre: 'Lina Marcela Pérez Manchego',
         cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
