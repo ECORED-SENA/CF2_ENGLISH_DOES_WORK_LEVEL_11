@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -11,10 +11,10 @@
     .row.bg-c1
       .col-12.px-5.pb-5
         .row.mb-5
-          .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-block
+          .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
             figure
               img(src="@/assets/curso/intro/img1.png", style="width:350px").m-auto
-          .col-lg-9
+          .col-lg-9(data-aos="fade-left")
             .row
               figure.fig-p1
                 img(src="@/assets/curso/intro/img3.svg")
@@ -23,10 +23,10 @@
                 p.mb-0 Para poder escribir el grueso del texto (que son los párrafos), vamos a entender qué son, cómo identificar y cómo formular ideas principales y secundarias; y por último, aprenderemos cómo enlazar todo (ideas, frases, párrafos, etc.) de forma comprensible, lógica y amena, por medio de conectores. Partiendo de lo anterior, le damos la bienvenida al estudio de este componente formativo y, #[span.txt-c1 para comenzar, se le invita a explorar el video que se presenta a continuación].
               figure.fig-p2
                 img(src="@/assets/curso/intro/img4.svg")
-        figure.mb-2.mb-lg-5
+        figure.mb-2.mb-lg-5(data-aos="fade-up")
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/3FX-Z-NlCrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-right")
           .col-lg-10.p-4
             .row.align-items-center
               .col-lg-auto.mb-4.mb-lg-0.bg-c4

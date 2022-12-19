@@ -3,14 +3,14 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 #[i Connecting ideas in a coherent way] (Conectando ideas de forma coherente)
     .row.px-5.bg-c28.mb-5
       .col-12.p-4
         .row.mb-5
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
             traductor.color-primario
               div(slot="textoIngles")
                 p #[i Connectors are used to join two or more sentences together, allowing us to build a more structured message. Instead of leaving individual sentences alone, we can connect them logically.]
@@ -18,14 +18,14 @@
               div(slot="textoEspanol")
                 p Los conectores sirven para unir dos o más oraciones, lo que permite construir un mensaje más estructurado. En lugar de dejar oraciones individuales y solas, se pueden conectar de manera lógica.
                 p.mb-0 En este tema, veremos cómo usar los conectores y los diferentes tipos que existen, para expresarnos de la mejor manera, con lógica, y que nuestros mensajes tengan sentido. Primero, escuche y lea el siguiente diálogo:
-          .col-lg-5
+          .col-lg-5(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema3/img2.svg', style="width: 450px").m-auto
         .row.justify-content-center.align-items-end
-          .col-lg-4.px-0.mb-4.mb-lg-0
+          .col-lg-4.px-0.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema3/img3.svg', style="width: 450px").m-auto
-          .col-lg-6.p-4.bg-c18.shadow-lg
+          .col-lg-6.p-4.bg-c18.shadow-lg(data-aos="fade-left")
             .row.align-items-center.mb-4
               .col-lg-auto
                 h4.text-center.txt-c3.mb-0.mb-lg-5 Mario
@@ -93,17 +93,17 @@
     .row.px-5.pb-5.bg-c29.mb-5
       .col-12.p-4
         .row.align-items-start.mb-5
-          .col-lg-8.bg-c30.p-4.mb-4.mb-lg-0
+          .col-lg-8.bg-c30.p-4.mb-4.mb-lg-0(data-aos="fade-right")
             .row.align-items-center
               .col-auto
                 figure
                   img(src='@/assets/curso/tema3/img4.svg', style="width: 60px").m-auto
               .col
                 p.mb-0 #[i.txt-c4 Next, we will see the different types of connectors and some examples of how to use them:] #[span.txt-c9 / A continuación, veremos los diferentes tipos de conectores y algunos ejemplos sobre cómo usarlos:]
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema3/img1.png', style="width: 450px").m-auto
-        ImagenInfografica.color-secundario
+        ImagenInfografica.color-secundario(data-aos="fade-down")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema3/img6.svg')
@@ -397,7 +397,7 @@
                     .row.align-items-center
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3.mb-lg-0(
-                          texto="<u>To summarize</u>, this is a useful explanation of how to use connectors in a text."
+                          texto="<u>To summarize</u>, this is a useful explanation on how to use connectors in a text."
                           :audio="require('@/assets/curso/tema3/Audio 3_20.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -407,15 +407,15 @@
                   .col-lg-4
                     figure
                       img(src='@/assets/curso/tema3/img11.png', style="width: 250px").m-auto
-    p.text-center.mb-5 #[i.txt-c7 Now, we will check example paragraphs according to the connectors:] #[span.txt-c9 / Ahora, revisaremos ejemplos de párrafos acordes con los conectores:]
+    p.text-center.mb-5(data-aos="fade-left") #[i.txt-c7 Now, we will check example paragraphs according to the connectors:] #[span.txt-c9 / Ahora, revisaremos ejemplos de párrafos acordes con los conectores:]
     .row.align-items-start.bg-c31.p-4.p-lg-0.mb-5
-      .col-lg-3
+      .col-lg-3(data-aos="fade-right")
         figure.mb-4.mb-lg-5
           img(src='@/assets/curso/tema3/img7.svg', style="width: 250px").m-auto
-      .col-lg-3.mt-0.mt-lg-5.mb-5.mb-lg-0
+      .col-lg-3.mt-0.mt-lg-5.mb-5.mb-lg-0(data-aos="fade-down")
         h4.txt-c7 #[i Bad example:]
         p #[i Hello, Patty. I wanted to go to the party, the party is late and I don't like to be late. Let's go early and have more fun. I don't think it will be a problem.]
-      .col-lg-3.mt-0.mt-lg-5.linea1.order-2.oder-lg-1
+      .col-lg-3.mt-0.mt-lg-5.linea1.order-2.oder-lg-1(data-aos="fade-up")
         h4.txt-c7 #[i Good example:]
         TarjetaAudio.color-primario.mb-3.mb-lg-0(
           texto="Hello, Patty. I wanted to go to the party, but I heard that the party is late.  Personally, I don't like to be late. However, I want to go early and have more fun. In my opinion, I don't think that will be a problem."
@@ -423,18 +423,18 @@
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      .col-lg-3.order-1.order-lg-2
+      .col-lg-3.order-1.order-lg-2(data-aos="fade-left")
         figure.mb-4.mb-lg-5
           img(src='@/assets/curso/tema3/img8.svg', style="width: 250px").m-auto
     .row.align-items-center.mb-5
-      .col-lg-2.mb-4.mb-lg-0
+      .col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img10.svg', style="width: 250px").m-auto
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         p.mb-0Now #[i.txt-c7 Now let's test how much you learned about the different types of connectors. Listen and complete the following dialogue:] #[span.txt-c9 / Ahora, probemos cuánto aprendió sobre los diferentes tipos de conectores. Escuche y complete el siguiente diálogo:]
     .row.px-5.pb-5.bg-c32
       .col-12
-        Dialogo.color-primario(:dialogo="dialogo")
+        Dialogo.color-primario(:dialogo="dialogo")(data-aos="fade-right")
           template(#nombre-actividad) Arrastrar y Soltar
           template(#titulo-actividad) #[i Connecting ideas practice]
           template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.

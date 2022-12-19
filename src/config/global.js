@@ -115,15 +115,6 @@ export default {
     },
     {
       tema:
-        '<i>How to classify main and secondary ideas?</i> (¿Cómo clasificar ideas principales y secundarias?)',
-      referencia:
-        '<i>Instructional Development Services. (s. f.). TSI Assessment Preparation: Identifying the Main Idea. Austin Community College District.</i>',
-      tipo: 'Artículo',
-      link:
-        'https://sites.austincc.edu/tsiprep/reading-review/identifying-the-main-idea/',
-    },
-    {
-      tema:
         '<i>Connecting ideas in a coherent way</i> (Conectando ideas de forma coherente)',
       referencia:
         '<i>BBC Learning English - ¿Quieres aprender a hablar inglés? (2016). Linking words of contrast: BBC English Class [Video]. YouTube.</i>',
@@ -165,12 +156,6 @@ export default {
         'Instructional Development Services. (s. f.). <i>TSI Assessment Preparation: Identifying the Main Idea</i>. Austin Community College District. ',
       link:
         'https://sites.austincc.edu/tsiprep/reading-review/identifying-the-main-idea/',
-    },
-    {
-      referencia:
-        'Learning Assistance Center. (s. f.). <i>Main ideas and supporting details</i>. University of Hawaii. ',
-      link:
-        'https://manoa.hawaii.edu/undergrad/learning/wp-content/uploads/2014/03/MAIN-IDEAS-AND-SUPPORTING.pdf',
     },
     {
       referencia:

@@ -3,14 +3,14 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 #[i How to classify main and secondary ideas?] (¿Cómo clasificar ideas principales y secundarias?)
     .row.px-5.pb-5.bg-c15
       .col-12
         .row.mb-5
-          .col-lg-8.mb-4.mb-lg-0
+          .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
             traductor.color-primario
               div(slot="textoIngles")
                 p #[i Each text presents different types of ideas, depending on their importance or hierarchy within the writing. The idea that introduces the main theme or the hypothesis of the text is usually the main idea, and the other ideas that emerge from it to complement it are usually called secondary ideas.]
@@ -18,14 +18,14 @@
               div(slot="textoEspanol")
                 p Cada texto presenta diferentes tipos de ideas, dependiendo de su importancia o jerarquía dentro del escrito. La idea que nos transmite el tema principal o la hipótesis del texto suele ser la idea principal, y las otras ideas que se desprenden de ella para complementarla suelen ser llamadas ideas secundarias.
                 p.mb-0 En este tema, vamos a hablar de los distintos tipos de ideas dentro de un texto, cómo identificarlas en un texto o cómo formularlas.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto
         .row
-          .col-12.bg-c14.p-4
+          .col-12.bg-c14.p-4(data-aos="fade-right")
             p.text-white.mb-0 #[b #[i Homework]]
             p.mb-0 #[b #[i Read the next science text.]]
-          .col-12.bg-c16
+          .col-12.bg-c16(data-aos="fade-left")
             .row
               .col-lg-5.mb-4.mb-lg-0
                 figure.mt-5
@@ -34,12 +34,12 @@
                 p.txt-c7 #[i Human beings have always polluted their environment, but in the past it was easier for them to move on and live somewhere else. They knew that given time, the environment would take care of pollution they left behind and they relied on the "out of sight, out of mind" philosophy. Today, an increasing human population, which uses an increasing amount of energy sources, no longer has the luxury to ignore pollution. The human population is approximately 7 billion. Our overall energy consumption has gone up by a hundredfold from 2,000 per/person/day to 230,000 per/person/day in modern industrial nations like the United States. This high energy consumption allows us to mass produce many useful and economically affordable organic products that pollute the atmosphere and groundwater, damage forests and lakes causing global warming, and even deplete the ozone layer.]
     .row.p-5.bg-c17.mb-5
       .col-12
-        p.mb-5 #[i Now, listen and read the next dialogue:]
+        p.mb-5(data-aos="fade-up") #[i Now, listen and read the next dialogue:]
         .row.justify-content-center.align-items-end
-          .col-lg-4.px-0.mb-4.mb-lg-0
+          .col-lg-4.px-0.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema2/img5.svg', style="width: 450px").m-auto
-          .col-lg-6.p-4.bg-c18.shadow-md
+          .col-lg-6.p-4.bg-c18.shadow-md(data-aos="fade-left")
             .row.align-items-center.mb-4
               .col-lg-auto
                 h4.text-center.txt-c2.mb-0.mb-lg-5 Gina
@@ -105,18 +105,18 @@
               .col-lg-auto.order-1.order-lg-2
                 h4.text-center.txt-c3.mb-0.mb-lg-5 Juan
     .row.align-items-center.mb-5
-      .col-lg-2.mb-4.mb-lg-0
+      .col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img6.svg', style="width: 250px").m-auto
-      .col-lg.bg-c19.p-4
+      .col-lg.bg-c19.p-4(data-aos="fade-left")
         p.mb-0 #[i.txt-c8 In order to identify or formulate main and secondary ideas, the first thing we must be clear about is the basic concepts of a paragraph (which is where we are going to find these ideas).] #[span.txt-c9 Para poder identificar o formular ideas principales y secundarias, lo primero que debemos tener claro son los conceptos básicos de un párrafo (que es donde vamos a encontrar estas ideas):]
     .row.p-5.bg-c20.mb-5
       .col-12
         .row
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema2/img2.png', style="width: 450px").m-auto
-          .col-lg-8.bg-c21.shadow-lg.p-4
+          .col-lg-8.bg-c21.shadow-lg.p-4(data-aos="fade-left")
             SlyderE(indicadores="derecha")
               .row.m-1
                 .col-12
@@ -242,18 +242,18 @@
                             li.mb-0
                               i.fas.fa-circle(style="color: #6B8DFC")
                               | #[i “How is the main idea linked to the supporting ideas?”]
-    p.mb-5 #[i Now, read the next text and try to identify each concept of a paragraph. Then check:]
+    p.mb-5(data-aos="fade-down") #[i Now, read the next text and try to identify each concept of a paragraph. Then check:]
     .row.p-5.bg-c24
       .col-12
         .row.mb-5
-          .col-12.bg-c25.p-4
+          .col-12.bg-c25.p-4(data-aos="fade-down")
             p.text-white.mb-0 #[b #[i Listen, read, and check]]
           .col-12.bg-c16
             .row.align-items-center
-              .col-lg-5.mb-4.mb-lg-0
+              .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
                 figure.mt-5
                   img(src='@/assets/curso/tema2/img3.png', style="width: 450px").m-auto
-              .col-lg-7.p-4
+              .col-lg-7.p-4(data-aos="fade-left")
                 p.txt-c7.mb-4 #[i Consumers concerned about the hazards of noise can reduce noise pollution in many ways. They can purchase noisy products such as garbage disposals and lawn mowers with reduced noise levels. They can also use sound-absorbing materials in their home. Carpeting can be installed instead of hard flooring, and cork and fabric can be used in rooms that tend to be noisy. Also, people can become less noisy themselves. They can learn to avoid shouting, to close doors without slamming them, and to play radios, TV sets, and stereos at moderate levels.]
                 .row.justify-content-end
                   .col-auto.me-4
@@ -261,7 +261,7 @@
                       :audio="require('@/assets/curso/tema2/audio1.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
-        .tabla-a.color-acento-botones
+        .tabla-a.color-acento-botones(data-aos="fade-up")
           table
             thead
               tr.bg-c26
@@ -351,8 +351,8 @@
                       p.mb-0 Pueden volverse menos ruidosos ellos mismos.
     .row.p-5.bg-c27.mb-5
       .col-12.p-4
-        p.mb-5 #[i.txt-c7 Whether we are reading and analyzing a text or writing it ourselves, it is important to identify main and supporting ideas. For this, we can use organization chart methods such as the following:] #[span.txt-c9 / Sea que estemos leyendo y analizando un texto o lo estemos escribiendo nosotros mismos, es importante identificar las ideas principales y secundarias. Para esto, podemos utilizar métodos gráficos de organización como los siguientes:]
-        TabsA.color-acento-botones
+        p.mb-5(data-aos="fade-down") #[i.txt-c7 Whether we are reading and analyzing a text or writing it ourselves, it is important to identify main and supporting ideas. For this, we can use organization chart methods such as the following:] #[span.txt-c9 / Sea que estemos leyendo y analizando un texto o lo estemos escribiendo nosotros mismos, es importante identificar las ideas principales y secundarias. Para esto, podemos utilizar métodos gráficos de organización como los siguientes:]
+        TabsA.color-acento-botones(data-aos="fade-right")
           .tarjeta.color-acento-botones.p-4(titulo="<em>Circle the main idea</em>")
             .row
               .col-12.p-4
@@ -389,8 +389,8 @@
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema2/img15.svg')
-    p.mb-5 #[i.txt-c7 Let's see if you learned to identify ideas in a text. Complete the following dialogue.] #[span.txt-c9 / Veamos si aprendió a identificar las ideas en un escrito. Complete el siguiente diálogo:]
-    Dialogo.color-primario(:dialogo="dialogo")
+    p.mb-5(data-aos="fade-up") #[i.txt-c7 Let's see if you learned to identify ideas in a text. Complete the following dialogue.] #[span.txt-c9 / Veamos si aprendió a identificar las ideas en un escrito. Complete el siguiente diálogo:]
+    Dialogo.color-primario(:dialogo="dialogo")(data-aos="fade-left")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[i Identify ideas practice]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.

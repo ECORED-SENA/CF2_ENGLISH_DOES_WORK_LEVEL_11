@@ -3,27 +3,27 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 #[i The anatomy of an argumentative text] (La anatomía de un texto argumentativo)
     .row.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         traductor.color-primario
           div(slot="textoIngles")
             p.mb-0 #[i When writing texts that persuade the reader, it takes more than an opinion to be convincing. It is not about how strong the position is, but how structured it is and how it is supported by evidence and arguments. Next we will learn everything necessary about argumentative texts. Pay attention to the next dialogue:]
           div(slot="textoEspanol")
             p.mb-0 A la hora de escribir textos que persuadan al lector, se necesita más que una opinión para ser convincente. No se trata de cuán fuerte es la postura, sino de cuán estructurada está y cómo está respaldada por evidencia y argumentos. A continuación, aprenderemos todo lo necesario sobre los textos argumentativos. Preste atención al siguiente diálogo: 
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width: 450px").m-auto
     .row.bg-c5.mb-5
       .col-12.px-5.pt-5
         .row.align-items-end.justify-content-center
-          .col-lg-4.px-0
+          .col-lg-4.px-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img1.svg', style="width: 450px").m-auto
-          .col-lg-6.bg-white.shadow-lg.p-4
+          .col-lg-6.bg-white.shadow-lg.p-4(data-aos="fade-left")
             .row.align-items-center.mb-4
               .col-lg-auto
                 h4.text-center.txt-c2.mb-0.mb-lg-5 Andrea
@@ -88,12 +88,12 @@
                     p.mb-0 Sí, que la manipulación genética para mejorar los valores nutricionales y la resistencia de los cultivos no valen la pena frente a las consecuencias negativas para la salud de los consumidores.
               .col-lg-auto.order-1.order-lg-2
                 h4.text-center.txt-c3.mb-0.mb-lg-5 Sebastian
-    .h4.mb-5.pt-4 #[i.txt-c4 What is an argumentative text?] #[span.txt-c5 / ¿Qué es un texto argumentativo?]
+    .h4.mb-5.pt-4(data-aos="fade-down") #[i.txt-c4 What is an argumentative text?] #[span.txt-c5 / ¿Qué es un texto argumentativo?]
     .row.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img3.svg', style="width: 450px").m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         traductor.color-primario
           div(slot="textoIngles")
             p.mb-0 #[i Argumentative texts are usually a common task to develop in the middle and higher education stage of young students. And before learning how to write an argumentative text, we must understand what it is. Let’s see the next image:]
@@ -102,7 +102,7 @@
     .row.bg-c6
       .col-12.p-5.d-none.d-lg-block
         .row
-          .col-12.bg-c7.p-5
+          .col-12.bg-c7.p-5(data-aos="fade-up")
             figure.mb-4
               img(src='@/assets/curso/tema1/img6.svg')
             .row.justify-content-end
@@ -113,7 +113,7 @@
                   .indicador--click(v-if="mostrarIndicador")
       .col-12.p-5.d-block.d-lg-none
         .row
-          .col-12.bg-c8.p-5
+          .col-12.bg-c8.p-5(data-aos="fade-up")
             figure.mb-4
               img(src='@/assets/curso/tema1/img9.svg')
             .row.justify-content-end
@@ -135,20 +135,20 @@
     .row.bg-c9.d-none.d-lg-block.mb-5
       .col-12.p-5
         .row.justify-content-center.mb-5
-          .col-10.col-lg-2.mb-4
+          .col-10.col-lg-2.mb-4(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img11.svg', style="width: 250px").m-auto
-          .col-lg
+          .col-lg(data-aos="fade-left")
             traductor.color-primario
               div(slot="textoIngles")
                 p.mb-0 #[i The parts of an argumentative text should not be confused with the parts of an argument for a debate. Below is the anatomy of an argumentative text:]
               div(slot="textoEspanol")
                 p.mb-0 Las partes de un texto argumentativo no deben confundirse con las partes de un argumento para un debate. A continuación, está expuesta la anatomía de un texto argumentativo:
         .row.align-items-end.justify-content-center
-          .col-3.px-0
+          .col-3.px-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img13.svg', style="width: 450px").m-auto
-          .col-8.bg-white.p-5
+          .col-8.bg-white.p-5(data-aos="fade-left")
             SlyderE(indicadores="derecha")
               .row
                 .col-12
@@ -171,20 +171,20 @@
     .row.bg-c10.d-block.d-lg-none.mb-5
       .col-12.p-5
         .row.justify-content-center.mb-5
-          .col-10.col-lg-2.mb-4
+          .col-10.col-lg-2.mb-4(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img11.svg', style="width: 250px").m-auto
-          .col-lg
+          .col-lg(data-aos="fade-left")
             traductor.color-primario
               div(slot="textoIngles")
                 p.mb-0 #[i The parts of an argumentative text should not be confused with the parts of an argument for a debate. Below is the anatomy of an argumentative text:]
               div(slot="textoEspanol")
                 p.mb-0 Las partes de un texto argumentativo no deben confundirse con las partes de un argumento para un debate. A continuación, está expuesta la anatomía de un texto argumentativo:
         .row.justify-content-center.mb-4
-          .col-lg-10.mb-5
+          .col-lg-10.mb-5(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img14.svg', style="width: 250px").m-auto
-          .col-11.p-4.bg-white
+          .col-11.p-4.bg-white(data-aos="fade-left")
             SlyderE(indicadores="derecha")
               .row
                 .col-12
@@ -217,16 +217,16 @@
             img(src='@/assets/curso/tema1/img22.svg')
     .row.bg-c11.mb-5
       .col-12.p-5
-        traductor.color-primario.mb-5
+        traductor.color-primario.mb-5(data-aos="fade-right")
           div(slot="textoIngles")
             p.mb-0 #[i A good argumentative text should have a simple structure that is easy for readers to follow, clearly stating the position on the topic, the author's reasoning, and the supporting evidence. Next, we have a step by step so that you can make an argumentative text and be sure that you did not miss absolutely anything:]
           div(slot="textoEspanol")
             p.mb-0 Un buen texto argumentativo debe tener una estructura sencilla, que sea fácil de seguir para los lectores, donde se exponga claramente la postura sobre el tema, los razonamientos del autor y la evidencia que lo respalda. A continuación, tenemos un paso a paso para que pueda realizar un texto argumentativo y esté seguro de que no le hace falta absolutamente nada:
         .row.align-items-end.mb-5
-          .col-lg-3.px-0.d-none.d-lg-block
+          .col-lg-3.px-0.d-none.d-lg-block(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img2.png', style="width: 350px").m-auto
-          .col-lg-9.bg-white.p-4
+          .col-lg-9.bg-white.p-4(data-aos="fade-left")
             p.text-center.mb-5 #[i.txt-c1 Steps to write an argumentative text] #[span.txt-c5 / Pasos para escribir un texto argumentativo]
             SlyderF.mb-5(columnas="col-12 col-lg-6")
               .tarjeta.color-primario.p-4
@@ -332,16 +332,16 @@
                   div(slot="textoEspanol")
                     p.mb-0 Siempre corrija su texto antes de enviarlo y busque errores menores, como errores tipográficos, ortográficos o gramaticales.
         .row.justify-content-center.mb-4
-          .col-lg.mb-4
+          .col-lg.mb-4(data-aos="fade-right")
             traductor.color-primario
               div(slot="textoIngles")
                 p.mb-0 #[i Below you can see an example of an argumentative essay, with comments that explain the reason for each one of the paragraphs and the parts that are exposed in it.]
               div(slot="textoEspanol")
                 p.mb-0 A continuación, puede ver un ejemplo de ensayo argumentativo, con comentarios que explican el porqué de cada uno de los párrafos y las partes que se exponen en él.
-          .col-10.col-lg-2
+          .col-10.col-lg-2(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img11.svg', style="width: 250px").m-auto
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-up")
           .col-lg-10
             .row.align-items-center
               .col-lg-4.fig-p10.mb-4.mb-lg-0
@@ -360,16 +360,16 @@
     .row.bg-c13
       .col-12.p-5
         .row.mb-5
-          .col-lg-6.mb-4
+          .col-lg-6.mb-4(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img4.png', style="width: 550px").m-auto
-          .col-lg-6
+          .col-lg-6(data-aos="fade-left")
             traductor.color-primario
               div(slot="textoIngles")
                 p.mb-0 #[i Now let's see how much you learned about argumentative texts. Listen and complete the following dialogue.]
               div(slot="textoEspanol")
                 p.mb-0 Ahora, veamos cuánto aprendió sobre los textos argumentativos. Escuche y complete el siguiente diálogo.
-        Dialogo.color-primario(:dialogo="dialogo")
+        Dialogo.color-primario(:dialogo="dialogo")(data-aos="fade-right")
           template(#nombre-actividad) Arrastrar y Soltar
           template(#titulo-actividad) #[i Argumentative text practice]
           template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
