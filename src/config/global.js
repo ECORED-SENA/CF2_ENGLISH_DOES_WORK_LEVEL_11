@@ -153,9 +153,9 @@ export default {
     },
     {
       referencia:
-        'Instructional Development Services. (s. f.). <i>TSI Assessment Preparation: Identifying the Main Idea</i>. Austin Community College District. ',
+        'Learning Assistance Center. (s. f.). <i>Main ideas and supporting details</i>. University of Hawaii. ',
       link:
-        'https://sites.austincc.edu/tsiprep/reading-review/identifying-the-main-idea/',
+        'https://manoa.hawaii.edu/undergrad/learning/wp-content/uploads/2014/03/MAIN-IDEAS-AND-SUPPORTING.pdf',
     },
     {
       referencia:
